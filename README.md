@@ -7,6 +7,11 @@ This project demonstrates enterprise-grade database design principles using Post
 
 The solution models realistic healthcare workflows suitable for hospitals, outpatient clinics, and private healthcare providers.
 
+
+## Entity Relationship Diagram (ERD)
+
+![ERD](docs/healthcare-appointment-ERD.png)
+
 ## Key Features
 - Fully normalized relational schema (3NF)
 - Surrogate primary keys using sequences
@@ -18,14 +23,15 @@ The solution models realistic healthcare workflows suitable for hospitals, outpa
 ## Repository Structure
 
 SQL/
-├─ 00_database_init.sql # Database creation (run once)
-├─ 01_healthcare_schema_ddl.sql # Tables, sequences, constraints
-├─ 02_healthcare_data_dml.sql # Sample data population
-└─ 03_healthcare_queries.sql # Business & analytical queries
+├── 00_database_init.sql        # Database creation (run once)
+├── 01_healthcare_schema_ddl.sql # Tables, sequences, constraints
+├── 02_healthcare_data_dml.sql   # Sample data population
+└── 03_healthcare_queries.sql    # Business & analytical queries
 
 docs/
-├─ system-design.md # System design documentation
-└─ healthcare-appointment-ERD.png
+├── system-design.md             # Detailed system design documentation
+└── healthcare-appointment-ERD.png
+
 
 
 ## Execution Order
