@@ -8,10 +8,6 @@ This project demonstrates enterprise-grade database design principles using Post
 The solution models realistic healthcare workflows suitable for hospitals, outpatient clinics, and private healthcare providers.
 
 
-## Entity Relationship Diagram (ERD)
-
-![ERD](docs/healthcare-appointment-ERD.png)
-
 ## Key Features
 - Fully normalized relational schema (3NF)
 - Surrogate primary keys using sequences
