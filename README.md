@@ -19,13 +19,13 @@ The solution models realistic healthcare workflows suitable for hospitals, outpa
 ## Repository Structure
 
 <pre>
-**SQL/**
+SQL/
 ├── 00_database_init.sql
 ├── 01_healthcare_schema_ddl.sql
 ├── 02_healthcare_data_dml.sql
 └── 03_healthcare_queries.sql
 
-**docs/**
+docs/
 ├── system-design.md
 └── healthcare-appointment-ERD.png
 </pre>
